@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)file:///home/quencykb/git-assignments-quencykb02/html-introduction-assignments-quencykb02-master/basics.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Opdrachten</title>
+    <style>
+        * {
+            letter-spacing: 1px;
+        }
+
+        p {
+
+            line-height: 1.5em;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .assignments {
+            background-color: rgba(125, 125, 125, 0.2);
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin: 25px 0;
+        }
+
+        .assignment-block {
+            color: black;
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(172, 159, 159, 0.1);
+        }
+
+        .assignment-title {
+            color: black;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+        }
+
+        .tip-box {
+            background-color: rgba(36, 165, 68, 0.5);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .tip-box--red {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        .tip-box--orange {
+            background-color: rgba(255, 115, 0, 0.5);
+        }
+
+        .answer {
+            background-color: rgba(23, 207, 69, 0.5);
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin: 0;
+        }
+
+        .answertitel {
+            color: red;
+            font-weight: bold;
+        }
+        nav {
+  display: block;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HTML Introductie</h1>
+            <img src="./HTML Opdrachten_files/techgrounds.svg" alt="techgrounds-placeholder" style="width: 200px;">
+        </div>
+        <p>HTML staat voor Hypertext Markup Language. Het is een taal om de opmaak van de website op te bouwen. Er zijn
+            regels hoe HTML toegepast wordt. De opdrachten zijn gemaakt om meer inzicht te krijgen hoe deze regels zijn
+            opgesteld. Maak de opdrachten hieronder.</p>
+
+        <p>Om mee te beginnen, lees <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">hier</a> wat HTML
+            inhoudt. </p>
+
+        <div>
+            <h2>Instructies</h2>
+            <p>De antwoorden verwerk je dit html bestand. Voor elk opdracht zie je een leeg blok staan. Zie hieronder:
+            </p>
+            <img src="./HTML Opdrachten_files/answer.png" alt="empty">
+            <p>Tussen deze div blok geef je antwoord. Licht je antwoord zo uitgebreid toe en doe vooral veel onderzoek
+                bij elk opdracht.</p>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p>
+                    <span class="assignment-title">Opdracht 1</span>: Wat is een HTML tag en een HTML element? Hoe open
+                    je een HTML tag en hoe sluit je een HTML tag. Maak hiervoor voorbeelden en leg uit.
+                </p>
+            </div>
+            <div class="answer">
+                Een tag is een opdracht die door een browser kan worden geïnterpreteerd.
+                HTML gebruikt tags om bijvoorbeeld de positie en weergave van elementen op een pagina aan te geven.
+
+                Notatie
+                Een tag staat altijd tussen een < en een>.
+                    Het betreffende element wordt omsloten door een begintag en een eindtag.
+                    <br>
+                    <img src="./htmltags.png" <br>
+
+                    <p> Voorbeeld:
+                        <b>Deze woorden zijn vet</b> en <u>dit</u> is onderstreept.
+                    </p>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p>
+                    <span class="assignment-title">Opdracht 2</span>: HTML gebruikt basis tags om structuur op te
+                    bouwen. De &lt;html&gt;, &lt;head&gt; en &lt;body&gt;. Geef voor elke element aan waarvoor het
+                    dient.
+                </p>
+            </div>
+            <div class="answer">
+
+                <p class="answertitel">HTML</p> HTML (Hypertext Markup Language of opmaaktaal voor gelinkte tekst) is de
+                code die wordt
+                gebruikt om een webpagina en zijn inhoud te structureren en weer te geven.
+                <p class="answertitel">HEAD</p>Een heading is een ándere HTML-tag waarmee je een kop of sub-kop binnen
+                een tekst
+                aangeeft.
+                <p class="answertitel"> BODY</p>Het BODY element markeert het begin en einde van dat deel van een
+                HTML-document (de
+                body), dat de weer te geven inhoud van het document bevat.
+
+            </div>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p>
+                    <span class="assignment-title">Opdracht 3</span>: Op HTML elementen kun je attributen gebruiken. Wat
+                    zijn HTML attributen ? Geef minimaal 5 attributen en maak voorbeelden waar je de attributen in toe
+                    past. Bv, zie hieronder:
+                </p>
+                <button autofocus="true">focus</button>
+
+
+            </div>
+            <div class="answer">
+                <h2 style="background-color: #ff0000;">Mijn eerste HTML pagina.</h2>
+                <font face="arial" color="#ff0000">TEST
+                    <a href="https://www.voetbalzone.nl/">Dit is een link</a>
+                    <P ALIGN="right">Deze paragraaf wordt rechts uitgelijnd.</P>
+                    <P>Deze tekst vormt een paragraaf.</P>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p>
+                    <span class="assignment-title">Opdracht 4</span>: Waarom is een goede HTML Structuur belangrijk? Is
+                    <a
+                        href="https://raw.githubusercontent.com/mdn/learning-area/master/html/introduction-to-html/html-text-formatting/text-start.html">deze
+                        code</a> een goede structuur? Leg uit.
+                </p>
+
+                <div class="tip-box tip-box--orange">Graag hieronder de redenen opsommen.</div>
+            </div>
+            <div class="answer">
+                Nee, omdat het alles onder elkaar is en je hebt geen overzicht.
+
+            </div>
+        </div>
+
+        <div class="assignments">
+            <div class="assignment-block">
+                <p>
+                    <span class="assignment-title">Opdracht 5</span>: Codeer een html structuur waarvan jij vindt dat
+                    het een goede structuur is.
+                </p>
+                <div class="tip-box tip-box--red">
+                    Let op: Maak alleen gebruik van HTML. Dus geen CSS gebruiken.
+                </div>
+            </div>
+            <div class="answer">
+                <image src="./structuur.png" width=700 height=300
+                 </div> </div> <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 6</span>: Wat is het verschil tussen inline en block
+                        elementen?
+                    </p>
+                </div>
+                <div class="answer">
+                    Elk HTML element heeft een standaard weergave waarde, afhankelijk van wat voor soort het element is.
+                    De standaard weergave waarde voor de meeste elementen is block of inline.
+                    Een block-level element begint altijd op een nieuwe regel en neemt de volle breedte van het
+                    browservenster in.
+                    Het strekt zich uit naar links en rechts uit zo ver als het kan.
+                    Een inline element start niet op een nieuwe regel en beslaat slechts zo veel breedte als het nodig
+                    heeft om wat erin staat weer te geven.
+
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 7</span>: Wat betekent nesting? Codeer een voorbeeld met
+                        nesting erin.
+                    </p>
+                </div>
+                <div class="answer">
+                    Nesting is als je in een element een ander element hebt bijvoorbeel:
+                    <p>Example: This is a <strong>sentence</strong> of text and it also has some <em>italicized
+                            text</em> too.</p>
+                            <image src="./nesting.png"
+                        
+                            
+
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 8</span>: Onderzoek welke elementen hieronder zijn
+                        gebruikt
+                        en maak de pagina na.
+                    </p>
+                    <div class="tip-box">
+                        Voor voorbeeld teksten zie <a href="https://www.lipsum.com/">hier</a>
+                    </div>
+
+                    <div class="tip-box tip-box--orange">
+                        <ul>
+                            <li>Maak een aparte html bestand aan.</li>
+                            <li>Geef in je antwoord een link naar dat bestand.</li>
+                        </ul>
+                    </div>
+
+                    <img src="./HTML Opdrachten_files/basic-page.png" alt="empty" style="width: 100%;">
+                </div>
+                <div class="answer">
+
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 9</span>: Sinds de komst van HTML5 zijn er elementen die
+                        betekenissen hebben. Wat
+                        wordt er bedoeld met HTML semantics? Waarom is het gebruik van semantics belangrijk?
+                    </p>
+                    <div class="tip-box">Lees meer over <a href="https://html.com/semantic-markup/">semantics markup</a>
+                    </div>
+                </div>
+                <div class="answer">
+              <img src="semanticmeaning.png"      
+
+                    
+
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 10</span>: Wat voor content zou je in de volgende
+                        elementen
+                        gebruiken?
+                    </p>
+                    <div class="tip-box tip-box--orange"> Geef in je antwoord voor elk element een toelichting.</div>
+                    <ul>
+                        <li>&lt;header&gt;</li>
+                        <li>&lt;footer&gt;</li>
+                        <li>&lt;main&gt;</li>
+                        <li>&lt;nav&gt;</li>
+                        <li>&lt;section&gt;</li>
+                        <li>&lt;aside&gt;</li>
+                        <li>&lt;article&gt;</li>
+                    </ul>
+
+                </div>
+                <div class="answer">
+                    <div class="nav"
+                        <li>&lt;Voetbalzone&gt;</li>
+                        <li>&lt;Facebook link&gt;</li>
+                        <li>&lt;Voetbalzone is een pagina waar je al je up to date voetbalnieuws kan volgen.&gt;</li>
+                        <li>&lt;<a href="/html/">HTML</a> |
+                            <a href="/css/">CSS</a> |
+                            <a href="/js/">JavaScript</a> |
+                            <a href="/jquery/">jQuery</a>&gt;</li>
+                        <li>&lt;<section>
+                            <h1>Voetbalzone</h1>
+                            <p>Al je dagelijkse voetbalnieuws wereldwijd</p>
+                        </section>
+                        &gt;</li>
+                        <aside><li>&lt;<a href="https://www.vodafone.nl/shop/mobiel/abonnement/red61-red-together/2-jaar/false/?utm_source=appnexus_cbu-acq-rtb-rt-kn-pb-oa-dt-7365026-27276305-cbu-acq&utm_medium=cpm&utm_campaign=cbu-acq-cbu-postpaid-sales&utm_content=160x600_171049228&utm_term=1354-264731-3073879-0">
+                            <img src="./apple-iphone-11.png"></a>&gt;</li></aside>
+                        <li>&lt;article&gt;</li>
+                        
+
+
+                </div>
+            </div>
+
+            <div class="assignments">
+                <div class="assignment-block">
+                    <p>
+                        <span class="assignment-title">Opdracht 11</span>: Maak een pagina met de elementen die
+                        hieronder
+                        staan.
+                    </p>
+                    <div class="tip-box tip-box--red">
+                        Let op: Maak alleen gebruik van HTML. Dus geen CSS gebruiken.
+                    </div>
+                    <div class="tip-box tip-box--orange">
+                        <ul>
+                            <li>Maak een aparte html bestand aan.</li>
+                            <li>Geef in je antwoord een link naar dat bestand.</li>
+                        </ul>
+                    </div>
+
+                    <ul>
+                        <li>&lt;header&gt;</li>
+                        <li>&lt;footer&gt;</li>
+                        <li>&lt;main&gt;</li>
+                        <li>&lt;nav&gt;</li>
+                        <li>&lt;section&gt;</li>
+                        <li>&lt;aside&gt;</li>
+                        <li>&lt;article&gt;</li>
+                    </ul>
+                    <p></p>
+
+                </div>
+                <div class="answer">
+
+                </div>
+            </div>
+
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+Adform=window.Adform||{};
+Adform.host="https://track.adform.net";
+Adform.shost="https://s1.adform.net";
+Adform.scriptBase=Adform.shost+"/banners/scripts/";
+Adform.cache="620";
+Adform.ADFBannerData={"URL":"https://track.adform.net/adfserve/?bn=33051696;rtbpid=3;rtbinv=${INV_SRC};rtbwp=1.681421-Og3t2XJpyU5cKWkHLVWfusN4iOtIBxgX0;rtbr=7904607325836123254;rtbcid=${ENC_CID};rtbtpc=${ENC_TPC};rtburl=https%3A%2F%2Fwww.lipsum.com%2F;rtbcat=${IAB_CATS};rtbdp=${DATA_PROV};rtbdt=${DATA_TYPE};rtbdc=${DATA_FEE_ENC};rtbplc=${ENC_PLC};rtbrmc=${ENC_RMC};rtbdata=PV32xZM9So63dGW4lrIVlmZPY3WwvsTyJMZWHUvdeOtRnRWlcQswGMgDSwff26VTzaSRwH5ihSi3tUhNFVAQu9t_bVomTUgE8idI-6iDC3mwp7-5yAuMSmY3h90b-OwiWhEiDXRJBITQV26mlkuH0hbfhY1lgK3X8pofqAKbnpCXXFYFqKnCUdYM98FpgFy3L5cvWj7AHfuAg4STKeeg5ThtC1rPziBMUwL5vvwbntxuQNnn_OkVb56fIMmXcmMWf36hGbZXmjC1Bam9QGLkgGVwkO6Hh-emdsuK1KmCxjPacCGLdG4eJCy9M-4XQR9a6KE01mjdoUVelL9PuKJpmGkt2QKzUUkGjJbngie4A9S6E8pRx2VLt_ddLtJbVkJj-fyw_I2vBknlkF_kAmml0ovLgkFKaYBT7RpRUziz4CTNPXUVz4hBHyNixW5vTsEAAeMlNz9pCAsSq8ZYEcsbFpfQcRwxYBbr0;rtbtest=0","CREFURL":"https%3a%2f%2fwww.lipsum.com%2f","BN":33051696,"STUBFILE":{"PATH":"/adform/IFrameManager.html"}};
+if(!Adform.ADFBannerParams)Adform.ADFBannerParams=[];
+Adform.ADFBannerParams.push(Adform.ADFBannerData);
+typeof Adform.ADFUtilInstance=="undefined"?document.write('<scr'+'ipt type="text/javascript" src="https://s1.adform.net/stoat/620/s1.adform.net/bootstrap.js"></scr'+'ipt>'):new Adform.ADFBanner();

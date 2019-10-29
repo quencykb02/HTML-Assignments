@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<style>
+
+.bodyalternative {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundform {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: red;
+    width: 500px;
+}
+
+.form {
+    margin-top: 50px;
+    max-width: 200px;
+    margin-bottom: 50px;
+}
+
+</style>
+
+<body>
+
+    <div class="bodyalternative">
+
+    <div class="backgroundform">
+
+        <div class="form">
+                <div>
+                    <h4>Naam</h4>
+                    <input type="text" value="Whats your name?">
+                </div>
+                E-mail <br>
+                <input type="email" value="Please enter your current e-mail adress"><br>
+                <br>
+                Age (optional) <br>
+                <input type="text" value="Please enter your age"><br>
+                <br>
+                whats your current employment statut?
+                (click or tap on it to choose) <br>
+               <select class="droplist">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+            
+                </select>
+                <br>
+                Would you recommend Techgrounds to a friend?<br>
+                <input type="radio" name="For sure!" value="For sure!"> For sure!<br>
+                <input type="radio" name="Maybe" value="Maybe"> Maybe<br>
+                <input type="radio" name="No" value="No"> No<br>
+                <br>
+                <input type="text" value="Other:Please tell us whats on your mind.."> <br>
+                <br>
+                What interest you the most?<br>
+                (click or tap ont it to choose)<br>
+                <br>
+                <select class="droplist2">
+                    <option value="Voetbal">Voetbal</option>
+                    <option value="Golf">Golf</option>
+                    <option value="Tennis">Tennis</option>
+                </select>
+                <p>Which of the following needs improvements?</p>
+                <p>(check all that apply)</p>
+                <!-- <div> -->
+            <div class="checkboximp">
+                    <div><input type="checkbox" value="Personal guidance">Personal guidance</div>
+                    <div><input type="checkbox" value="Homework">Homework</div>
+                    <div> <input type="checkbox" value="Challenges">Challenges</div>
+                        <div>  <input type="checkbox" value="A Codewebbies WIKI">A Codewebbies WIKI</div>
+                        <!-- <div><input type="checkbox" value="No improvements needed!">No improvements needed!</div> -->
+            </div>       
+                </div> <!--hier eindigt form-->
+
+                </div> <!-- hier eindigt backgroundform -->
+
+            </div> <!-- hier eindigt bodyalternative-->
+</body>
+</html>
